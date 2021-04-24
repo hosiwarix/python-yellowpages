@@ -44,9 +44,5 @@ data = {
 
 df = pd.DataFrame(data)
 
-df.to_csv('autoLA.csv',index=True)
+df.to_csv('exported.csv',index=True)
 print(df)
-'''
-if __name__ == "__main__":
-    main()
-'''
